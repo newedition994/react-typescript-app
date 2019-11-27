@@ -1,18 +1,11 @@
 import React from "react";
 
-import { TextField } from "./TextField";
+import { Counter } from "./Counter";
 
 import "./App.css";
 
 const App: React.FC = () => {
-  return (
-    <div className="App">
-      <TextField
-        text="Hey!"
-        person={{ firstName: "Jim", lastName: "Matthews" }}
-      />
-    </div>
-  );
+  return <div className="App"></div>;
 };
 
 export default App;
