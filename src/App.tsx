@@ -7,7 +7,10 @@ import "./App.css";
 const App: React.FC = () => {
   return (
     <div className="App">
-      <TextField text="Hey!" />
+      <TextField
+        text="Hey!"
+        person={{ firstName: "Jim", lastName: "Matthews" }}
+      />
     </div>
   );
 };
